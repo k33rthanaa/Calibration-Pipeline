@@ -1,9 +1,9 @@
-# calibration-pipeline
+# Calibration-Pipeline
 
 ETL pipeline for equipment position calibration data. Reads CSV, Excel, JSON, and log files, validates measurements, loads them into a SQLite database, and produces drift/stability analysis.
 
 ![Python](https://img.shields.io/badge/python-3.10%2B-blue)
-![Tests](https://img.shields.io/badge/tests-89%20passed-brightgreen)
+
 ![SQLite](https://img.shields.io/badge/database-SQLite-lightgrey)
 
 ---
