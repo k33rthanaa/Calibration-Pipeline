@@ -1,0 +1,24 @@
+database:
+  path: "data/calibration.db"
+
+paths:
+  raw: "data/raw"
+  processed: "data/processed"
+  archive: "data/archive"
+
+validation:
+  outlier_threshold: 3.0        # Z-score cutoff
+  max_gap_hours: 24             # Max allowed gap between timestamps
+  duplicate_window_hours: 1     # Window for duplicate detection
+  min_measurements_per_run: 5   # Minimum measurements expected per run
+
+analysis:
+  default_lookback_days: 30
+  alert_drift_threshold: 0.5    # mm or units of measurement
+  stability_window_days: 7
+  control_chart_sigma: 3.0
+
+logging:
+  level: "INFO"
+  file: "data/pipeline.log"
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"

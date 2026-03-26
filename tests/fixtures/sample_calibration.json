@@ -1,0 +1,10 @@
+{
+  "data": [
+    {"timestamp": "2024-03-02 09:00:00", "position": "POS_A1", "actual_value": 10.001, "expected_value": 10.000, "operator": "OP002", "equipment_id": "TOOL_X1", "axis": "X", "unit": "mm"},
+    {"timestamp": "2024-03-02 09:01:00", "position": "POS_A2", "actual_value": 9.999, "expected_value": 10.000, "operator": "OP002", "equipment_id": "TOOL_X1", "axis": "X", "unit": "mm"},
+    {"timestamp": "2024-03-02 09:02:00", "position": "POS_A3", "actual_value": 10.003, "expected_value": 10.000, "operator": "OP002", "equipment_id": "TOOL_X1", "axis": "X", "unit": "mm"},
+    {"timestamp": "2024-03-02 09:03:00", "position": "POS_B1", "actual_value": 10.002, "expected_value": 10.000, "operator": "OP002", "equipment_id": "TOOL_X1", "axis": "Y", "unit": "mm"},
+    {"timestamp": "2024-03-02 09:04:00", "position": "POS_B2", "actual_value": 9.998, "expected_value": 10.000, "operator": "OP002", "equipment_id": "TOOL_X1", "axis": "Y", "unit": "mm"},
+    {"timestamp": "2024-03-02 09:05:00", "position": "POS_B3", "actual_value": 10.001, "expected_value": 10.000, "operator": "OP002", "equipment_id": "TOOL_X1", "axis": "Y", "unit": "mm"}
+  ]
+}
